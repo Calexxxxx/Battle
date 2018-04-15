@@ -15,8 +15,8 @@
 Clone, Fork or download the repo
 
 ```
-git clone 
-cd 
+git clone https://github.com/Calexxxxx/Battle.git 
+cd battle
 npm install
 ```
 
