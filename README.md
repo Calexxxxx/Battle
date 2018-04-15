@@ -6,7 +6,6 @@
     * [Scripts](#scripts)
 * [File Structure](#file-structure)
 * [Webpack Config](#webpack)
-* [Babel Config](#babel)
 * [Dependencies](#dependencies)
 
 
@@ -90,18 +89,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 module.exports = config;
-```
-
-## Babel
-
-babel configuration 
-```
-{
-  "presets": [
-    "env",
-    "react"
-  ]
-}
 ```
 
 ## Dependencies
