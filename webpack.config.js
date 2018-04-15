@@ -15,8 +15,11 @@ const config = {
             { test: /\.css$/, use: ['style-loader', 'css-loader'] }
         ]
     },
+    devtool: 'inline-source-map',
     devServer: {
         historyApiFallback: true,
+        hot: true,
+        contentBase: './dist'
     },
     plugins: [
         new HtmlWebpackPlugin({
